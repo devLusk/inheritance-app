@@ -1,7 +1,7 @@
 package com.example.inheritanceapp
 
 open class BaseClass() {
-    fun role() {
+    open fun role() {
         println("Member of the house BaseClass")
     }
 

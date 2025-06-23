@@ -2,8 +2,8 @@ package com.example.inheritanceapp
 
 fun main() {
     val obj1 = BaseClass()
-    obj1.coreValues()
+    obj1.role()
 
-    val obj2 = Secondary()
-    obj2.coreValues()
+    val obj2 = SecondaryClass()
+    obj2.role()
 }
