@@ -1,4 +1,4 @@
 package com.example.inheritanceapp
 
-class Secondary {
+class Secondary : BaseClass() {
 }
