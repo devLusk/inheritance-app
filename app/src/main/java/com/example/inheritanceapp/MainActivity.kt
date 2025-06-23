@@ -1,9 +1,13 @@
 package com.example.inheritanceapp
 
 fun main() {
-    val obj1 = BaseClass()
-    obj1.role()
+    val generalMember = HouseMember()
+    generalMember.showRole()
+    generalMember.showCoreValues()
 
-    val obj2 = SecondaryClass()
-    obj2.role()
+    println()
+
+    val knight = Knight()
+    knight.showRole()
+    knight.showCoreValues()
 }
