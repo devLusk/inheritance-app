@@ -1,9 +1,9 @@
 package com.example.inheritanceapp
 
 fun main() {
-    val generalMember = HouseMember()
-    generalMember.showRole()
-    generalMember.showCoreValues()
+    val member = HouseMember()
+    member.showRole()
+    member.showCoreValues()
 
     println()
 
