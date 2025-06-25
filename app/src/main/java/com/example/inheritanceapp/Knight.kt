@@ -1,8 +1,11 @@
 package com.example.inheritanceapp
 
-class Knight : HouseMember() {
-    override fun showRole() {
-        super.showRole() // <- call HouseMember.showRole()
+interface Knight {
+    fun showRole() {
         println("I serve as a Knight of the house.")
+    }
+
+    fun skills() {
+        println("I wield the sword to defend our honor in close combat.")
     }
 }

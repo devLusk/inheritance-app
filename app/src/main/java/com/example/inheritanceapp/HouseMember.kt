@@ -2,10 +2,10 @@ package com.example.inheritanceapp
 
 open class HouseMember {
     open fun showRole() {
-        println("I am a member of HouseMember.")
+        println("I am a loyal member of the noble house.")
     }
 
     fun showCoreValues() {
-        println("Our core values are honor, loyalty, and courage.")
+        println("Our core values are honor, loyalty, and bravery.")
     }
 }

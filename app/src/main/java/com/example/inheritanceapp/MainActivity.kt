@@ -7,7 +7,7 @@ fun main() {
 
     println()
 
-    val knight = Knight()
-    knight.showRole()
-    knight.showCoreValues()
+    val paladin = Paladin()
+    paladin.showRole()
+    paladin.skills()
 }
